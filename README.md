@@ -2,7 +2,7 @@
 
 # WARP
 
-The "WASP: Warp Speed Protocol (Performance Enhancements) Commit Shorthand" can be structured to provide clarity and brevity in commit messages. Here's how the notation can be set up:
+The "WARP: Warp Speed Protocol (Performance Enhancements) Commit Shorthand" can be structured to provide clarity and brevity in commit messages. Here's how the notation can be set up:
 
 Format: `[TYPE OF CHANGE]-[MODULE]: [Brief Description]`
 
