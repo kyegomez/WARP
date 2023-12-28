@@ -9,6 +9,7 @@ Format: `[TYPE OF CHANGE]-[MODULE]: [Brief Description]`
 
 
 ## Types of Changes
+Note the types of changes are flexible, they can be of any of the following or any not listed here only if they are interpretable.
 1. **FEAT**: Feature Addition
 2. **BUGF**: Bug Fix
 3. **REFA**: Refactoring
@@ -29,6 +30,7 @@ Each of these abbreviations corresponds to a common type of change that might be
 
 ----
 
+## Examples
 
 1. **FEAT-[Module]**: New feature for [Module], e.g., "FEAT-Auth: Add biometric login."
 2. **BUGF-[Module]**: Bug fix in [Module], e.g., "BUGF-UI: Resolve alignment issue in navbar."
@@ -47,3 +49,44 @@ Each of these abbreviations corresponds to a common type of change that might be
 15. **RELE-[Module]**: Release-related tasks for [Module], e.g., "RELE-App: Release version 1.2.0."
 
 This shorthand ensures that each commit message is concise yet informative, indicating the type of change, the specific module it affects, and a brief description of what the change entails. It's particularly useful for quickly understanding the context and impact of changes in a large and complex codebase.
+
+
+## Best Practices for Using WASP
+
+### Commit Message Clarity
+- **Descriptive Yet Concise**: Commit messages should be clear and concise. Avoid vague descriptions; be specific about what the commit achieves.
+- **Consistency**: Maintain a consistent format across all commit messages. This consistency aids in readability and understanding, especially when reviewing historical changes.
+
+### Collaborative Workflow
+- **Team Understanding**: Ensure that the entire development team understands and agrees on the meaning of each type of change. This shared understanding is crucial for effective communication.
+- **Review and Feedback**: Regularly review commit messages as a team. Use this as an opportunity to provide feedback and improve the protocol.
+
+### Integration with Development Tools
+- **Automated Checks**: If possible, integrate automated checks in your version control system to ensure that commit messages follow the WASP format.
+- **Documentation**: Include a section in your project’s documentation that describes the WASP protocol and its usage. This is particularly useful for new team members.
+
+## Challenges and Solutions
+
+### Adoption Resistance
+- **Challenge**: Resistance from team members who are accustomed to a different commit message format.
+- **Solution**: Provide training and demonstrate the benefits of WASP. Encourage open discussion about the format to address concerns.
+
+### Ambiguity in Types of Changes
+- **Challenge**: Difficulty in categorizing some changes, leading to ambiguity.
+- **Solution**: Create guidelines that help in categorizing complex changes. Allow for flexibility and use the most appropriate category that closely matches the nature of the change.
+
+## Future Perspectives
+
+### Evolution of WASP
+- The protocol might evolve to include more types of changes or adapt to new development practices.
+- Integration with AI and machine learning tools could provide suggestions for categorizing changes or even automate parts of the process.
+
+### Broader Adoption
+- As the benefits of WASP become more evident, its adoption across various software development teams could increase.
+- It may also inspire similar protocols in other aspects of software engineering, beyond commit messages.
+
+## Conclusion
+
+WASP provides a structured and efficient way to manage commit messages in software development projects. By standardizing how changes are documented, it enhances clarity, improves communication among team members, and facilitates a better understanding of the project’s history. As with any protocol, its success depends on proper implementation, regular review, and willingness to adapt to changing needs.
+
+This document serves as a comprehensive guide to understanding, implementing, and benefiting from the WASP protocol in your software development endeavors.
