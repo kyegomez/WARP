@@ -30,6 +30,46 @@ Each of these abbreviations corresponds to a common type of change that might be
 
 ----
 
+## [Module] Specification in WASP
+In the WASP (Warp Speed Protocol) for commit messages, accurately specifying the module, file, or function/class is crucial for clarity and traceability. This section outlines how users should denote these elements in their commit messages.
+
+### Denoting Files, Modules, and Classes/Functions
+
+#### 1. **File Specification**
+   - **Format**: `File: [Filename.ext]`
+   - **Example**: `File: login.js`
+   - **Description**: Specify the exact file name, including its extension. This is particularly useful for commits that are limited to changes in a single file.
+
+#### 2. **Module Specification**
+   - **Format**: `Module: [ModuleName]`
+   - **Example**: `Module: Authentication`
+   - **Description**: Use a concise yet descriptive name for the module. The module name should correspond to a logical subdivision of the project, such as a feature set, service, or a major component.
+
+#### 3. **Class/Function Specification**
+   - **Format**: `Class: [ClassName]` or `Function: [FunctionName]`
+   - **Example**: `Class: UserAuthenticator` or `Function: validateUser`
+   - **Description**: When changes are specifically tied to a particular class or function, clearly name that entity. This level of detail is beneficial for changes that are confined to a specific part of the codebase, such as a method update or a class refactoring.
+
+### Guidelines for Effective Module Specification
+
+#### Consistency
+- **Project-Wide Standards**: Establish and adhere to project-wide standards for naming modules, classes, and functions. Consistency in naming conventions enhances the readability and understandability of commit messages.
+
+#### Clarity
+- **Descriptive Names**: Choose names that clearly reflect the purpose or functionality of the module, class, or function. Avoid overly technical or cryptic names that may not be immediately understood by all team members.
+
+#### Brevity
+- **Concise Descriptions**: While clarity is essential, brevity should not be compromised. Aim for succinct names that convey the necessary information without being overly verbose.
+
+#### Context
+- **Provide Adequate Context**: When the change spans multiple files or modules, provide a general description instead of listing each file or module. For instance, use `Module: PaymentGateway` to denote extensive changes within the Payment Gateway module.
+
+#### Special Cases
+- **Handling Exceptions**: In cases where changes span across multiple unrelated files or modules, use `Multiple: Various Changes` or a similar notation. Provide further details in the commit description if necessary.
+
+----
+
+
 ## Examples
 
 1. **FEAT-[Module]**: New feature for [Module], e.g., "FEAT-Auth: Add biometric login."
