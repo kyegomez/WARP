@@ -25,6 +25,8 @@ Note the types of changes are flexible, they can be of any of the following or a
 13. **CONF**: Configuration
 14. **SECU**: Security Patch
 15. **RELE**: Release
+16. **PR** Pull Request
+17. **RFTR** Refactor
 
 Each of these abbreviations corresponds to a common type of change that might be made in a codebase. When used as part of a commit message, they quickly convey the nature of the change. For example, a commit message could start with "FEAT: Add user authentication system" or "BUGF: Fix login page crash issue." This approach helps in quickly identifying the purpose of changes in the codebase.
 
