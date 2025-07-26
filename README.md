@@ -1,5 +1,3 @@
-[![Multi-Modality](agorabanner.png)](https://discord.gg/qUtxnK2NMf)
-
 # WARP
 
 The "WARP: Warp Speed Protocol (Performance Enhancements) Commit Shorthand" can be structured to provide clarity and brevity in commit messages. Here's how the notation can be set up:
